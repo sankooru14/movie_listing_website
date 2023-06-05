@@ -1,0 +1,118 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vh;
+    
+    
+}
+.movies{
+    padding-left: 1vh;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icon{
+    margin-right: 2vh;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 3vh;
+    height: auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 10%;
+    
+}
+.right{
+    flex: 90%;
+}
+.result{
+    text-align: center;
+    margin: 2vh;
+    
+}
+.filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+ span{
+    margin: 2vh;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1600;
+}
+
+.heading{
+    font-family: 'Rubik', sans-serif;
+}
+
+ 
+.add{
+    display: flex;
+    justify-content: center;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    
+    
+    width: auto;
+    margin-left: 2vh;
+}
+.rightone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.righttwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.country{
+    height: 50vh;
+    width: 35vh;
+}
+.country_img{
+    height: 40vh;
+    width: 35vh;
+    border-radius: 2vh;
+}
+.country_name{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-family: 'Rubik', sans-serif;
+}
+ 
